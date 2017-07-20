@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+.call_div {
+	border-left:thin solid #e7e7e7;
+	border-right:thin solid #e7e7e7;
+	background-image: url(../images/icon_call.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+#top-menu {
+	float: right;
+}
+#right-top-h {
+	color: #666666;
+	float: left;
+	width: 150px;
+	margin-top: 5px;
+}
+/* Vertical Navigation */
+#vertical-navigation {
+	list-style: none;
+	padding: 0;
+	font-size: 1em;
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-family: Calibri;
+	float: right;
+}
+
+
+/* CSS for each Parent Item */
+#vertical-navigation li {float: left; position: relative;}
+
+#vertical-navigation li a
+{
+	float: left;
+	display: block;
+	padding: 4px;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	font-family: Calibri;
+}
+
+/* 
+Change background color and font color 
+of parent items when mouse hover 
+*/
+#vertical-navigation li:hover a,
+#vertical-navigation li a:hover
+{
+	color: #0066FF;
+}
+
+
+
+
+/* 
+Applie to group of Child Items
+Each Child Item will be invisible by default
+*/
+#vertical-navigation ul {display: none;}
+
+/* Each Child Item will be visible if mouse hover */
+#vertical-navigation li:hover ul {display: block;}

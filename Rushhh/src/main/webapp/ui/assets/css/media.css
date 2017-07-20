@@ -1,0 +1,372 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {  @charset "utf-8";
+/* CSS Document */
+
+.btn btn-default:hover{ background-color:#06F;}.login{}
+.logo{}
+.amt{ margin-left:50px;}
+
+.new{margin-top: 24px;
+
+color: #06F;
+margin-left: 0px;
+font-size: 12px;
+
+}
+.or{ text-align:center; margin-top:5px;}
+.forgot{margin-top: 24px;
+
+color: #06F;margin-left: 22px;
+font-size: 12px;
+}
+.signin{text-align: center;
+margin-top: 5px;
+color: blue;
+
+font-family: initial;
+}
+.quick{text-align: center;
+
+font-family: initial;
+color:#4cae4c;;
+}
+.facebook{}
+.parentmedia{margin-top: 60px;
+margin-left: 129px;
+}
+.with{ margin-top:5px;}
+.line{ background-color:#333; height:1px; margin-top:21px;}
+.parentmedia1{margin-top: 20px;
+margin-left: 129px;
+}
+.option{text-align: center;
+    margin-top: 27px;
+}
+.box{}
+
+/*registration*/
+.registration-box{ background-color:rgba(255,255,255,0.5); height:425px; width:100%; padding:7px; margin-bottom:20px;}
+.rushhh-logo{ margin-bottom: 15px;}
+.rushhh{}
+.remember{ margin-left:17px;}
+.form1{ width:85%; margin-left: 83px; color:#333;}
+.registration-button{ margin-left:26px;}
+.form{margin-left: 83px; width:85%;color:#333;}.form2{ margin-left:85px;color:#333; width:70%;} 
+/*table*/
+.tab-strip{ margin-top:50px;}
+.property-strip{background-color:#fff;
+
+}
+.table-background{ margin-top:20px; background-color:#FFF; height:480px; padding:20px;}
+.amount-text{color: #4B3992; margin-left:50px;  }
+.amt{ margin-left:50px;}
+.sale{text-align: center;
+font-family: initial;
+}
+.status-text{color: black;
+margin-top: 23px;
+}
+.detail-text{color: black; margin-top: 23px;
+margin-bottom: 23px;
+}
+.description-text{color: black;}
+.status-description{margin-top: 27px;}
+.Details-description{margin-top: 23px;
+margin-bottom: 23px;}
+.para-description{}
+.posting{  color:#333; }
+.posting-date{ margin-top:19px; color:#333; }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {   @charset "utf-8";
+/* CSS Document */
+
+.btn btn-default:hover{ background-color:#06F;}.login{}
+.logo{}
+.new{margin-top: 24px;
+
+color: #06F;
+margin-left: 0px;
+font-size: 12px;
+
+}
+.or{ text-align:center; margin-top:5px;}
+.forgot{margin-top: 24px;
+
+color: #06F;<!--margin-left: 22px;-->
+font-size: 12px;
+}
+.signin{text-align: center;
+margin-top: 5px;
+color: blue;
+
+font-family: initial;
+}
+.quick{text-align: center;
+margin-top: 40px;
+font-family: initial;
+color:#F90;
+}
+.facebook{}
+.parentmedia{margin-top: 60px;
+margin-left: 129px; 
+}
+.with{ margin-top:5px;}
+.line{ background-color:#333; height:1px; margin-top:21px;}
+.parentmedia1{margin-top: 20px;
+margin-left: 129px;
+}
+.option{text-align: center;
+    margin-top: 27px;
+}
+.box{}
+
+/*registration*/
+.registration-box{ background-color:rgba(255,255,255,0.5); height:480px; width:100%; padding:7px; margin-bottom:20px;}
+.rushhh-logo{ margin-bottom: 15px;}
+.rushhh{}
+.remember{ margin-left:17px;}
+.form1{ width:85%; margin-left: 83px; color:#333;}
+.registration-button{ margin-left:26px;}
+.form{margin-left: 83px; width:85%;color:#333;}.form2{ margin-left:85px;color:#333; width:70%;}
+/*table*/
+.tab-strip{ margin-top:50px; padding-left:12px;}
+.property-strip{background-color:#fff;
+
+}
+.table-background{ margin-top:20px; background-color:#FFF; height:480px; padding:20px;}
+.amount-text{color: #4B3992; }
+.sale{text-align: center;
+font-family: initial;
+}
+.status-text{color: black;
+margin-top: 30px;
+}
+.detail-text{color: black; margin-top: 23px;
+margin-bottom: 23px;
+}
+.description-text{color: black;}
+.status-description{margin-top: 27px;}
+.Details-description{margin-top: 23px;
+margin-bottom: 23px;}
+.para-description{}
+.posting{ margin-top:25px; color:#333; }
+.posting-date{ margin-top:19px; color:#333; }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {   @charset "utf-8";
+/* CSS Document */
+
+.btn btn-default:hover{ background-color:#06F;}.login{}
+.logo{}
+.new{margin-top: 24px;
+
+color: #06F;
+margin-left: 0px;
+font-size: 12px;
+
+}
+.or{ text-align:center; margin-top:5px;}
+.forgot{margin-top: 24px;
+
+color: #06F;margin-left: 22px;
+font-size: 12px;
+}
+.signin{text-align: center;
+margin-top: 5px;
+color: blue;
+
+font-family: initial;
+}
+.quick{text-align: center;
+margin-top: 40px;
+font-family: initial;
+color:#F90;
+}
+.facebook{}
+.parentmedia{margin-top: 60px;
+margin-left: 129px;
+}
+.with{ margin-top:5px;}
+.line{ background-color:#333; height:1px; margin-top:21px;}
+.parentmedia1{margin-top: 20px;
+margin-left: 129px;
+}
+.option{text-align: center;
+    margin-top: 27px;
+}
+.box{}
+
+/*registration*/
+.registration-box{ background-color:rgba(255,255,255,0.5); height:480px; width:100%; padding:7px; margin-bottom:20px;}
+.rushhh-logo{ margin-bottom: 15px;}
+.rushhh{}
+.remember{ margin-left:17px;}
+.form1{ width:85%; margin-left: 83px; color:#333;}
+.registration-button{ margin-left:26px;}
+.form{margin-left: 83px; width:85%;color:#333;}.form2{ margin-left:85px;color:#333; width:70%;}
+ 
+ /*table*/
+.tab-strip{ margin-top:50px;}
+.property-strip{background-color:#fff;
+
+}
+.table-background{ margin-top:20px; background-color:#FFF; height:480px; padding:20px;}
+.amount-text{color: #4B3992; }
+.sale{text-align: center;
+font-family: initial;
+}
+.status-text{color: black;
+margin-top: 30px;
+}
+.detail-text{color: black; margin-top: 23px;
+margin-bottom: 23px;
+}
+.description-text{color: black;}
+.status-description{margin-top: 27px;}
+.Details-description{margin-top: 23px;
+margin-bottom: 23px;}
+.para-description{}
+.posting{ margin-top:25px; color:#333; }
+.posting-date{ margin-top:19px; color:#333; }
+.amt{ margin-left:50px;}
+
+}
+.roundd {
+    margin-top: 16px; background-color: #05222A; margin-left: 116px;
+}
+
+.pageno {
+   
+height: 36px;
+margin-top: 16px;
+
+}
+
+.first-name {
+    margin-top: 4px;
+}
+
+.gender {
+    margin-top: 5px;
+}
+
+.ng-scope {
+    font-size: 12px;
+margin-top: 14px;
+
+}
+
+.ng-valid {
+    margin-top: 18px; margin-left: 6px;
+}
+
+.control-label {
+    margin-left: -15px;
+margin-top: 17px;
+
+}
+
+.area {
+    margin-top: 26px;
+}
+
+.ng-pristine {
+    
+}
+
+.form-control {
+   margin-top: 0px; 
+}
+
+.ng-empty {
+    
+}
+
+.ng-text {
+    
+}
+
+.save {
+    margin-left: 19px;
+}
+
+.close-rush {
+    margin-left: 12px;
+}
+
+.file-input {
+    margin-left: 27px;
+margin-top: 5px;
+
+}
+
+.browse {
+    border-color: white;
+    margin-left: 27px;
+margin-top: 1px;
+
+}
+
+.save-role {
+    margin-left: 24px;
+}
+
+.close-role {
+    margin-left: 11px;
+}
+
+.control-label-aboutus {
+    text-align: center;
+margin-left: 164px;
+margin-top: 16px;
+
+}
+
+.btn-sm {
+    
+    margin-top: -3px; height: 36px;
+}
+
+.go-master {
+    margin-top: -3px; height: 36px;
+}
+
+.panel-body {
+    padding: 0px;
+    height: 49px;
+}
+
+.role-master {
+    padding: 4px;
+}
+
+.ng-not-empty {
+    
+}
+
+.pagination {
+    margin-top: 0px; margin-left: 56px; height: 35px;
+}
+
+.panel-default {
+    border-radius: 0px;
+}
+
+.btn-default {
+     background-color:#02B875; margin-top:0px;width:11%; color:#FFF;}
+
+.form-inline {
+    margin-bottom:11px;}
+
+.verification-news {
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+#fixed-menu {
+
+	float: left;
+
+	color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+/* General menu styling */
+
+.school-nav {
+	padding: 0;
+	line-height: 22px;
+	font-size: 1em;
+	position: fixed;
+	top: 25%;
+	width: auto;
+	list-style-type: none;
+	height: 60px;
+	z-index: 1;
+	background-image: none !important;
+	right: 0px;
+
+}
+
+/* The main school-navigation link containers */
+
+.school-nav>li {
+
+	display: block;
+
+	float: left; /* Displaying them on the same line */
+
+	margin: 0;
+
+	padding: 0;
+
+	font-size: 1em;
+
+	background-image: none !important;
+
+}
+
+/* The main school-navigation links */
+
+.school-nav>li>a {
+
+	position: relative;
+
+	/* Text */
+
+font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+
+	color: #fff;
+
+	font-size: 1em;
+
+	text-decoration: none;
+
+	/* Background */
+
+background: black; /* For older browsers */
+
+	background: rgba(22, 170, 161, .6); /* Transparent background for modern browsers */
+
+	background:cornflowerblue;
+
+
+
+
+
+
+
+/* Making the color to change on hover with a transition */
+
+-webkit-transition: color .3s ease-in;
+
+-moz-transition: color .3s ease-in;
+
+-o-transition: color .3s ease-in;
+
+-ms-transition: color .3s ease-in;
+
+	padding-top: 10px;
+
+	padding-right: 10px;
+
+	padding-bottom: 10px;
+
+	padding-left: 10px;
+
+}
+
+/* Changing the color on hover */
+
+.school-nav>li>a:hover, .school-nav>li:hover>a {
+
+	color: #0fd0f9;
+
+	background: white;
+
+	border: thin dashed #00CCFF;
+
+}

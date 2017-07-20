@@ -1,0 +1,114 @@
+  @charset "utf-8";
+/* CSS Document */
+.body-color{ background-color: #CCC; width:100%;}
+.btn btn-default:hover{ background-color:#06F;}.login{}
+.logo{}
+.new{margin-top: 24px;
+
+color: #06F;
+margin-left: 0px;
+font-size: 12px;
+
+}
+.amt{}
+.or{ text-align:center; margin-top:5px;}
+.forgot{margin-top: 24px;
+
+color: #06F;margin-left: 22px;
+font-size: 12px;
+}
+.signin{text-align: center;
+margin-top: 5px;
+color: blue;
+
+font-family: initial;
+}
+.quick{text-align: center;
+margin-top: 40px;
+font-family: initial;
+color:#F90;
+}
+.facebook{}
+.parentmedia{margin-top: 60px;
+<!--margin-left: 129px;
+-->}
+.with{ margin-top:5px;}
+.line{ background-color:#333; height:1px; margin-top:21px;}
+.parentmedia1{margin-top: 20px;
+<!--margin-left: 129px;-->
+}
+.option{text-align: center;
+    margin-top: 27px;
+}
+.box{}
+
+/*registration*/
+.registration-box{ background-color:rgba(0,0,0,0.5); height:430px; width:100%; padding:0px; margin-bottom:20px;}
+.rushhh-logo{ margin-bottom: 15px;}
+.rushhh{}
+.remember{<!-- margin-left:17px;-->}
+.form1{ width:auto; <!--margin-left: 83px;--> color:#333;}
+.registration-button{ margin-left:20px;}
+.form{<!--margin-left: 83px;--> width:auto;color:#333;}.form2{<!-- margin-left:85px;-->color:#333; width:auto;}
+/*table*/
+.tab-strip{ margin-top:12px;}
+.property-strip{background-color:#fff;
+
+}
+.list-strip{ width:100%; background-color:	#3c8dce; height:56px; padding:5px;}
+.bhk-text{ color:#333; font-family:Arial, Helvetica, sans-serif;
+margin-top: 5px;
+}
+.table-background{ margin-top:20px; background-color:#FFF; height:390px; padding:20px; font-family:Arial, Helvetica, sans-serif;}
+.amount-text{color: #00897b; }
+.sale{text-align: center;
+font-family: initial;
+}
+.status-text{color: black;
+margin-top: 30px; font-family:Arial, Helvetica, sans-serif; font-size:18px;
+}
+.detail-text{color: black; margin-top: 23px;font-size:18px;
+margin-bottom: 23px;font-family:Arial, Helvetica, sans-serif;
+}
+.description-text{color: black;font-family:Arial, Helvetica, sans-serif;font-size:18px;}
+.status-description{margin-top: 33px;font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+.Details-description{margin-top: 8px;font-family:Arial, Helvetica, sans-serif;
+margin-bottom: 13px;font-size:14px;}
+.para-description{font-family:Arial, Helvetica, sans-serif;font-size:14px;}
+.posting{ margin-top:25px; color:#333;font-family:Arial, Helvetica, sans-serif; }
+.posting-date{ margin-top:23px; color:#333; font-family:Arial, Helvetica, sans-serif;}
+.map{ }
+/*role*/
+.bg-role{ background:url(../images/re_main.jpg) fixed !important; height:800px; padding-top:20px;}
+.bg-role1{ background:url(../images/re_main1.png) fixed !important; height:2133px; width:4000px; padding-top:20px;}
+.bg-role2{ background: url(../images/rest.jpg)  fixed !important; height:3000px; }
+
+.role-rushhh{ }
+.role-trans{ background-color:rgba(0,0,0,0.5); height:50px; margin-top:10px;  padding-top:9px;}.role{ color:#fff; text-align:center; margin-top:-10px; }
+.table-trans{ background-color:rgba(0,0,0,0.5); height:400px; margin-top:10px; border:#FFF solid 2px;}
+.number{ }
+.pencil{ margin-top:5px;}.table-trans-cardtype{ background-color:rgba(0,0,0,0.5); height:600px; margin-top:10px; border:#FFF solid 2px;}
+.table-trans-user{ background-color:rgba(0,0,0,0.5); height:800px; margin-top:10px; border:#FFF solid 2px;}
+/*user*/
+
+.sell-text{ margin-top:25px; color: #C30; text-align:center;}.white-trans{ background-color:rgba(255,255,255,0.5); height:3000px;}.black-trans{ background-color: rgba(0,102,255,0.5); height:50px; margin-bottom:15px;}.list-property{ text-align:center; font-family:Arial, Helvetica, sans-serif; color:#333;}.lacs{ text-align:center; margin-top:5px;}.here{ text-align:center; font-family:Arial, Helvetica, sans-serif;}.agent{ text-align:center; color:#333; margin-top:10px;}.info{ text-align:left; margin-top:50px;}.PROPERTYDROP{ text-align:left;}.sold{ margin-top:30px;}.info1{ text-align:left; margin-top:50px;}
+.locationmap{ margin-top:20px;}.locality{ text-align:left; margin-top:30px; text-align: left;
+margin-top: 0px;
+margin-left: -116px;
+height: 32px;
+}.type{ text-align:left; margin-top:30px;}.features{ margin-top:30; text-align:left;}.BATHROOMS{width: 100%;
+height: 89%;
+margin-top: 22px;
+margin-left:-71px;
+
+}.lenght{ background-color:#FFF; height:200px; margin-top:20px; margin-bottom:25px;}.breadthstrip{ background-color:#06F; height:50px; padding:3px; }
+.specify{ text-align:center; margin-top:15px;}.measurment{text-align:center;}.furnish{margin-top: 24px;}.info3{text-align:left; margin-top:50px; margin-left:15px;}
+.covered{margin-top: 17px;
+margin-bottom: 18px;
+}.transaction{ text-align:left; margin-left:15px;}.transactiontype{}.price{margin-left: 10px;
+margin-top: 13px;
+}.crore{ margin-top:10px;}.price-text{ text-align:left; margin-left:15px;}.collpase class{}
+.head_h2 {
+    text-align: center;
+    margin-top: 15px;
+}

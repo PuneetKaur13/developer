@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+#colorbox1 {
+	background-color: #3b5998;
+	float: left;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	background-image: url(../images/fb.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#colorbox2 {
+	background-color: #d94a39;
+	float: left;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/gplus.png);
+		background-repeat: no-repeat;
+	background-position: center center;
+}
+#colorbox3 {
+	background-color: #48c4d2;
+	float: left;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#colorbox4 {
+	background-color: #fe9900;
+	float: left;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/rss.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#colorbox5 {
+	background-color: #FF3300;
+	float: left;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/youtube.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#colorbox6 {
+	background-color: #FFCC00;
+	float: left;
+	height: 50px;
+	width: 50px;
+	background-image: url(../images/yellowpage.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}

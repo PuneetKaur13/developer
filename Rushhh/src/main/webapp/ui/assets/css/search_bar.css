@@ -1,0 +1,66 @@
+@charset "utf-8";
+.searchForm {
+	margin:0 auto;
+	border-radius:5px;
+	background-image: url(../images/trans.png);
+	background-repeat: repeat;
+	background-position: 0 0;
+	box-shadow: 0 2px 9px -4px rgba(0, 0, 0, 0.75);
+	padding: 10px;
+	background-attachment: scroll;
+
+}
+.searchFormContent {
+	-moz-user-select: none;
+	box-shadow: 0 2px 9px -4px rgba(0, 0, 0, 0.75);
+	padding: 10px;
+	background-attachment: scroll;
+	background-color: rgba;
+	background-image: url(../images/trans.png);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+#text_box {
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid #b1b1b1;
+	border-radius: 3px;
+	box-shadow: none;
+	font-size: 12px;
+	min-height: 42px;
+	padding-top: 5px;
+	position: relative;
+	width:auto;
+	max-width:339px;
+	float:left;
+	margin-right: 10px;
+}
+
+.yellow-btn {
+	background-color:#fbe644;
+	color:#000;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	z-index:1;
+	font-family: "Trebuchet MS";
+	border: 1px solid transparent;
+	
+}
+.yellow-btn:visited {
+  color:#000;
+}
+.yellow-btn:hover {
+  background:#0095e6;
+  color:#fff;
+}
+.select-style {
+	width:100%;
+	height:34px;
+	padding:6px 12px;
+	font-size:14px;
+	color: #9B9B9B;
+	
+}

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.secHeading {
+	color:#02B875;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 25px;
+	margin-bottom: 6px;
+	padding-left: 8px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f4f4f4;
+}
+.h2{
+	color:#FF9900; 
+	line-height:10px; 
+	font-family: trebuchet ms;
+    font-size: 20px;
+	
+}
+
+.formLabel {
+    color: #123863;
+    font-size: 14px;
+    padding-right: 5px;
+    padding: 20px 0px;
+    width:auto;
+	max-width: 150px;
+}
+
+.iwantTo {
+    cursor: pointer;
+    margin: 0 16px;
+    position: relative;
+    top: 0;
+}
+.ppRadio {
+    margin: 0;
+    padding: 0;
+    vertical-align: -2px;
+}
+#propertyFor { 
+	color:#E0E0E0;
+	margin-left: 5px;
+
+}
+/* -------------------- Select Box Styles: bavotasan.com Method (with special adaptations by ericrasch.com) */
+/* -------------------- Source: http://bavotasan.com/2011/style-select-box-using-only-css/ */
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+
+/* -------------------- Colors: Background */
+.blue    { background-color: #3b8ec2; }
+
+/* -------------------- Colors: Text */
+.blue select    { color: #fff; }
+.opt {
+	padding:3px 3px 3px 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #E5E5E5;
+	margin-top: 5px;
+}
+.opt:hover {
+background:#f2f2f2;
+color:#FF9900
+}

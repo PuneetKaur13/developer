@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+#button
+{
+	border: none;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 2px;
+	background-color: #3D4693;
+	margin-top: 10px;
+	padding-top: 0.2em;
+	padding-right: 0.5em;
+	padding-bottom: 0.2em;
+	padding-left: 0.5em;
+	width: 100%;
+}
+
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+
+
+
+
+
+
+#button:hover
+{
+	background-color: #5A64BA;
+}
+.button
+{
+	background-color: #FF6600;
+	border: none;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 2px;
+	margin-top: 10px;
+	padding-top: 0.2em;
+	padding-right: 0.5em;
+	padding-bottom: 0.2em;
+	padding-left: 0.5em;
+	width: 100%;
+}
+.button:hover
+{
+	background-color: #FF9900;
+}
+.button1
+{
+	background-color: slateblue;
+	border: none;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 2px;
+	margin-top: 10px;
+	padding-top: 0.2em;
+	padding-right: 0.5em;
+	padding-bottom: 0.2em;
+	padding-left: 0.5em;
+	-webkit-transition: background 0.25s ease-in-out 0s;
+	-moz-transition: background 0.25s ease-in-out 0s;
+	-o-transition: background 0.25s ease-in-out 0s;
+	transition: background 0.25s ease-in-out 0s;
+}
+.button1:hover
+{
+	background-color: skyblue;
+}
+
+#logo {
+	
+	margin-top: 5px;
+	margin:0 auto;
+}
+
+#logo a {
+	width: 235px;
+	height: 150px;
+	display: block;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transition: opacity 0.25s ease-in-out 0s;
+	-moz-transition: opacity 0.25s ease-in-out 0s;
+	-o-transition: opacity 0.25s ease-in-out 0s;
+	transition: opacity 0.25s ease-in-out 0s;
+	text-indent: -9999px;
+	background-image:url(../../darshan/Rushh%20Landing%20Page/images/logo.png);
+}
+
+#logo a:hover {
+	opacity: 0.65;
+	filter: alpha(opacity=65);	
+}
+
+
+.h_h6{
+	color: #346bb3;
+
+
+text-align: center;
+font-family: initial;
+font-size: 20px;
+
+}
+
+/* ==================================================
+   Work Platfrom style
+================================================== */
+
+#content {
+	width: 100%;
+	height: 510px;
+	
+}
+.input_style {
+	background-image:url(../images/login-sprite.png);
+	background-repeat: no-repeat;
+	box-shadow: none;
+	color: #101010;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 300;
+	height: 30px;
+	width: 100%;
+	padding-top: 1;
+	padding-right: 0.5em;
+	padding-bottom: 1;
+	padding-left: 0.5em;
+	padding-left: 30px;
+	font-family: Verdana;
+	font-size: 15px;
+	margin-top: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #009FE3;
+	border-bottom-color: #009FE3;
+	border-left:none !important;
+	border-right:none !important;
+}
+
+.username
+
+{
+	background-position: 5px -11px !important;
+}
+
+.password
+
+{
+    background-position: 5px -60px !important;
+}
+
+#label {
+	top: 0;
+	width: 107px;
+	color: #FFFFFF;
+	font-family: Cabin;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 18px;
+	margin-top: 12px;
+}
+#sign_box {
+	background-image: url(../images/trans.png);
+	
+	
+	width:100%;
+	border-radius:3px;
+	margin-top: 0px;
+	
+	
+	padding:7px;
+	height:500px;
+}
+
+
+
+/* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
+@media (max-width: 915px)
+{
+        
+        input
+        {
+                padding:4px;
+                font-size:14px;
+        }
+        input[type="submit"]
+        {
+                padding: 1px 14px;
+        }
+        #four_columns
+        {
+                width: 500px;
+        }
+        #four_columns .img-item:nth-of-type(3), #four_columns .img-item:nth-of-type(4)
+        {
+                margin-top: 25px;
+        }
+        #text_columns article.column1, #text_columns .column2
+        {
+                float:none;
+                max-width: 500px;
+                margin: 50px 30px 0 30px;
+        }
+        .column2 .row
+        {
+                float:none;
+                margin:0 0 40px 50px;
+        }
+       
+}
+
+@media (max-width: 765px)
+{
+		
+		#sign_box {
+			width: 300px;
+			margin:0 auto;
+		}
+       
+       
+}
+
+@media (max-width: 500px)
+{
+		#text_columns{
+			display:block;
+			height:auto;
+			padding-bottom:10px;
+		
+		}
+        
+        #four_columns
+        {
+                width:auto;
+        }
+        #four_columns .img-item
+        {
+                width: 200px;
+                float:none;
+                margin: 25px auto 0 auto;
+        }
+        #four_columns h2
+        {
+                margin: 0 30px;
+        }
+        .column2 .row
+        {
+                margin: 0 0 40px 10px;
+                width:auto;
+        }
+        input
+        {
+                width:auto;
+        }
+		#sign_box {
+			width: 220px;
+			margin:0 auto;
+		}
+       
+}
+
+.submit-rush {
+    width: 50%;
+}
+
+.quick {
+text-align: center;
+
+font-family: initial;
+color:#4cae4c;;
+
+}
+
+.quick-rush {
+    text-align: center; margin-bottom: 20px; margin-top: 10px;
+}
+
+.login-rushhh {
+    margin-top: 15px; color:  #5cb85c;
+}
+
+.heading {
+    margin-top: 15px;
+}
+
+.heading1 {
+    margin-top: 15px; margin-left: 15px;
+}
+
+.border-rushh {
+    border: 3px solid #000; height: 400px; padding: 20px; margin-top: 20px;
+}
+
+.registration-rush {
+    padding-right: 300px;padding-left: 300px; padding-bottom: 300px; padding-top: 20px; 
+}
+
+.login-grids-rush {
+width: 50%;
+}
+
+.registration-box-rush {
+ background-color: aliceblue; height: 500px; padding: 50px;
+}
+
+.register-rush {
+   
+}
+
+.otp-rush {
+   background-color: aliceblue; border: 1px solid#333; height: 300px; padding-left: 20px; padding-right: 20px; padding-bottom: 5px;
+}
+
+.verifiactio-rush {
+    text-align: center;
+}
+
+.enetr-rush {
+    text-align: center; color: #333;
+}
+
+.otp-box {
+    background-color: #F5F5F5;
+ height: 230px; padding-left: 110px; border: 2px solid #666;padding-right: 110px;padding-bottom: 10px;padding-top: 20px;
+}
+
+.enetr {
+    text-align: center; margin-bottom: 22px;
+}
+
+.panel-rush {
+   background-color: aquamarine; 
+
+
+.otp {
+    width: 44%;
+    background-color: #02B875;
+}
+    
+
+.form-page {
+    
+}
+
+.bg-master-table {
+    background-image: url(../images/re_main1.jpg); height: 800px; 
+
+}
+
+.btn-default {
+   
+  color: #333;
+  background-color: #000;
+  border-color: #ccc;
+}
+
+
+.login-right {
+    
+}
+
+.post {
+    
+}
+
+.activate {
+    
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+
+	<!--Enables MVC annptations like @Valide, @RequestMapping etc. -->
+	<mvc:annotation-driven validator="validator" />
+
+	<!--Scan @Repository, @Service, @Component and @Controller spring beans -->
+	<context:component-scan base-package="com.ncs" />
+	<context:component-scan base-package="com.nenosystems" />
+
+	<mvc:resources mapping="/resources/**" location="/resources/" />
+	<mvc:resources mapping="/css/**" location="/ui/assets/css/" />
+	<mvc:resources mapping="/images/**" location="/ui/images/" />
+	<mvc:resources mapping="/userImages/**" location="/ui/images/userImage/" />
+	<mvc:resources mapping="/js/**" location="/ui/assets/js/" />
+	<mvc:resources mapping="/ang/**" location="/ui/assets/angular/" />
+	<mvc:resources mapping="/fonts/**" location="/ui/assets/fonts/" />
+	<mvc:resources mapping="/upload/**" location="/upload/" />
+	<mvc:resources mapping="/thumb/**" location="/thumb/" />
+	<mvc:resources mapping="/newFonts/**" location="/thumb/" />
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- setting maximum upload size -->
+		<property name="maxUploadSize" value="10000000" />
+	</bean>
+
+	<!-- Apply Front Controller -->
+
+	<!-- i18n Start -->
+	<!-- Defines the message resources -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basename" value="classpath:messages" />
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+		<property name="defaultLocale" value="en"></property>
+	</bean>
+
+	<mvc:interceptors>
+		<bean id="localeChangeInterceptor"
+			class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+			<property name="paramName" value="lang" />
+		</bean>
+	</mvc:interceptors>
+
+	<!-- JSR-303 -->
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+	<!-- Database Configuration -->
+	<import resource="hibernate-servlet.xml" />
+
+
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="25" />
+		<property name="protocol" value="smtp" />
+		<property name="username" value="bug@nenosystems.com" />
+		<property name="password" value="pass1234" />
+
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.debug">false</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="mailMessage" class="com.nenosystems.common.mail.MailMessageImp">
+		<property name="mailSender" ref="mailSender"></property>
+	</bean>
+
+
+
+	<!-- Mail Sender End -->
+</beans>
